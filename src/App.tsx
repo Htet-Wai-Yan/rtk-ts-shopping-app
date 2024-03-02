@@ -4,9 +4,12 @@ function App() {
   return (
     <>
       <Navbar />
-      <h1 className="text-3xl text-blue-300 font-bold underline">
-        Hello world!
-      </h1>
+      <section className="container mx-auto p-4">
+        <section className={"grid grid-cols-4"}>
+          <div className={"col-span-1 bg-primary"}>Hi</div>
+          <div className={"col-span-3 bg-secondary"}>Hello</div>
+        </section>
+      </section>
     </>
   );
 }

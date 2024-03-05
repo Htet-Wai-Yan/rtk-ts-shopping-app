@@ -9,7 +9,7 @@ export default {
       {
         goldenRose: {
           primary: "#eab308",
-          secondary: "#fda4af",
+          secondary: "#4c9e00",
           accent: "#eab308",
           neutral: "#f5f5f4",
           "base-100": "#e5e7eb",
@@ -23,5 +23,5 @@ export default {
       // "dark",
     ],
   },
-  plugins: [require("daisyui")],
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };
